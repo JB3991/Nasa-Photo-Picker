@@ -58,13 +58,37 @@
 			children = (
 				489047BA25ED732F00DAD622 /* AppDelegate.swift */,
 				489047BC25ED732F00DAD622 /* SceneDelegate.swift */,
-				489047BE25ED732F00DAD622 /* ViewController.swift */,
-				489047C025ED732F00DAD622 /* Main.storyboard */,
+				489047D125ED735800DAD622 /* Controller */,
+				489047D025ED735000DAD622 /* Model */,
+				489047CF25ED733D00DAD622 /* View */,
 				489047C325ED733300DAD622 /* Assets.xcassets */,
-				489047C525ED733300DAD622 /* LaunchScreen.storyboard */,
 				489047C825ED733300DAD622 /* Info.plist */,
 			);
 			path = NasaPhotoPicker;
+			sourceTree = "<group>";
+		};
+		489047CF25ED733D00DAD622 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				489047C025ED732F00DAD622 /* Main.storyboard */,
+				489047C525ED733300DAD622 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		489047D025ED735000DAD622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		489047D125ED735800DAD622 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489047BE25ED732F00DAD622 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
