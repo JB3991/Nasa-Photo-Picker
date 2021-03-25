@@ -9,7 +9,7 @@ import UIKit
 
 // https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY& date=2021-03-01
 
-let baseURL = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY& date="
+let baseURL = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date="
 
 class ViewController: UIViewController {
     
@@ -18,10 +18,24 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     @IBOutlet weak var dPicker: UIDatePicker!
   
     @IBAction func datePicker(_ sender: Any) {
         getDate()
+        
     }
     
     func getDate() {
@@ -29,7 +43,8 @@ class ViewController: UIViewController {
         date = dPicker.date
         let format = DateFormatter()
         format.dateFormat = "yyyy-MM-dd"
-        print(format.string(from: date))
+        var formattedDate = format.string(from: date)
+        print(formattedDate)
     }
     
 }
